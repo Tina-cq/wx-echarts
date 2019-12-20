@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/test/test",
+    "pages/guanxi/guanxi",
+    "pages/index/index",
+    "pages/bar/index",
+    "pages/measureText/index",
+    "pages/line/index",
+    "pages/heatmap/index",
+    "pages/scatter/index",
+    "pages/sunburst/index",
+    "pages/funnel/index",
+    "pages/radar/index",
+    "pages/gauge/index",
+    "pages/pie/index",
+    "pages/k/index",
+    "pages/tree/index",
+    "pages/treemap/index",
+    "pages/map/index",
+    "pages/graph/index",
+    "pages/boxplot/index",
+    "pages/parallel/index",
+    "pages/sankey/index",
+    "pages/themeRiver/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#eee",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "ECharts 图表示例",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#e3a0a0",
+    "selectedColor": "#fff",
+    "backgroundColor": "#b3221d",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/test/test",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/guanxi/guanxi",
+        "text": "关系图"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}
